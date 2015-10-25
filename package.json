@@ -1,0 +1,11 @@
+{
+  "name": "hellonode",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Node.js Hello World",
+  "author": "Pau López  <pau.lopez.78@gmail.com>",
+  "dependencies": {
+    "express": "4.x.x"
+  }
+}
+
