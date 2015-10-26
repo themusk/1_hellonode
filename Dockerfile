@@ -1,4 +1,4 @@
-FROM node:latest
+FROM paulopez/ubuntu:latest
 
 WORKDIR /app
 COPY . /app
@@ -6,4 +6,4 @@ COPY . /app
 RUN npm install
 EXPOSE 8080
 
-CMD node app.js
+CMD nodejs app.js
